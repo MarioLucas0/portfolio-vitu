@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Home, User, Code, FolderOpen, Mail, Github, Linkedin, Menu, X } from 'lucide-react';
-import { GitHubUser } from '../types';
+import { GitHubUser } from '../../types';
 
 interface SidebarProps {
   user: GitHubUser | null;
